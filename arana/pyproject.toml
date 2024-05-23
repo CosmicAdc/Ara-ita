@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "arana"
+version = "0.1.0"
+description = ""
+authors = ["Cosmic <andresbloc@hotmail.es>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gitpython = "^3.1.43"
+matplotlib = "^3.9.0"
+numpy = "^1.26.4"
+opencv-python = "^4.9.0.80"
+scipy = "^1.13.0"
+pyyaml = "^6.0.1"
+psutil = "^5.9.8"
+pillow = "^10.3.0"
+requests = "^2.32.2"
+thop = "^0.1.1.post2209072238"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+tqdm = "^4.66.4"
+ultralytics = "^8.2.19"
+protobuf = "^5.26.1"
+tensorboard = "^2.16.2"
+clearml = "^1.16.1"
+comet = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
